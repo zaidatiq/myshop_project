@@ -34,15 +34,16 @@ The Shop Registration System is a Django web application that allows users to re
    python manage.py runserver
 
 ## API Endpoints
-**Register Shop:** 
+**Register Shop**: 
 ```bash
 POST /api/shops/
  
-Search Shops:
+**Search Shops**:
+```bash
  GET /api/shops/?lat=LATITUDE&lng=LONGITUDE
 
      
-## THANKS
+
    
 
 
